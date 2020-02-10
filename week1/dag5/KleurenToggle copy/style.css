@@ -1,0 +1,86 @@
+#bodyElement{
+    background: grey;
+}
+#bodyElement.red {
+    background: red;
+}
+#bodyElement.orange {
+    background: orange;
+}
+#bodyElement.purple {
+    background: purple;
+}
+#bodyElement.green {
+    background: green;
+}
+#bodyElement.menu {
+    background: grey;
+}
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#menuLogo {
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+#textScreen {
+    text-align: center;
+}
+ul {
+    display: flex;
+}
+
+#dropDownUl {
+    display: none;
+    position: absolute;
+    list-style: none;
+    left: 0;
+}
+ 
+#dropDownUl il {
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding: 5px 30px 5px 30px;
+  }
+
+#dropDownUl.active {
+    display: inline-block;
+    animation: myFirst 3s;
+
+}
+@keyframes myFirst {
+    0% {left: -200px}
+    100% {left: opx}
+}
+#dropDownMenu {
+    background: grey;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+  #dropDownRed {
+      background: red;
+      border: 1px solid white;
+      border-radius: 15px;
+  }
+  #dropDownOrange {
+      background: orange;
+      border: 1px solid white;
+      border-radius: 15px;
+  }
+
+  #dropDownPurple {
+      background: purple;
+      border: 1px solid white;
+      border-radius: 15px;
+  }
+
+  #dropDownGreen {
+      background: green;
+      border: 1px solid white;
+      border-radius: 15px;
+  }
