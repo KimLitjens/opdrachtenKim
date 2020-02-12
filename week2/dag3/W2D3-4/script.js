@@ -1,24 +1,18 @@
-// zet de functie om naar een arrow functie
-//const ikRockArrowFunctions = function () {
-//    console.log("Joe, ik rock de arrow functions!");
-//  };
+const array = [
+    { name: "N. Armstrong", profession: "spacecowboy", age: 89 },
+    { name: "H. de Haan", profession: "kippen hypnotiseur", age: 59 },
+    { name: "A. Curry", profession: "kikvorsman", age: 32 },
+    { name: "F. Vonk", profession: "slangenmelker", age: 36 },
+    { name: "B. Bunny", profession: "konijnen uitlaatservice", age: 27 },
+    { name: "Dr.Evil", profession: "digital overlord", age: 56 }
+  ];
   
-// ikRockArrowFunctions();
-
- const ikRockArrowFunctions = () => console.log ("Joe, ik rock de arrow functions!");
-
- ikRockArrowFunctions()
-
-const fivePlusSeven = () => 5 + 7
-
-console.log(fivePlusSeven())
-
-const myFunction = (a,b) => a + b
-
-console.log(myFunction(9,7))
-
-const myFunction2 = a => a + 5
-
-console.log(myFunction2(3))
-
-const createObject = () => ({greeting: "hoi"})
+  for (const human of array) {
+    console.log("Dit is de gehele person:", human);
+    console.log("Dit is naam: ", human.name);
+    console.log("Is geboren in:", 2020 -human.age);
+    console.log(human.name, " is een ", human.profession);
+    if (human.age > 50) {
+        console.log(human.name, " is ouder dan 50")
+    }
+  }
