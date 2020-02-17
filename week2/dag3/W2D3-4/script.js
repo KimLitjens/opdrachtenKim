@@ -8,6 +8,7 @@ const array = [
   ];
   
   for (const human of array) {
+    console.log(human)
     console.log("Dit is de gehele person:", human);
     console.log("Dit is naam: ", human.name);
     console.log("Is geboren in:", 2020 -human.age);
@@ -16,3 +17,4 @@ const array = [
         console.log(human.name, " is ouder dan 50")
     }
   }
+  console.log(array.name)

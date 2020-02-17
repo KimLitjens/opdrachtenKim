@@ -98,12 +98,12 @@ const superheroes = [
       "weight": "200"
   },
   {
-      "name": "Silver Surfer",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Norrin Radd",
-      "first_appearance": "The Fantastic Four #48",
-      "weight": "unknown"
-    }
+     "name": "Silver Surfer",
+     "publisher": "Marvel Comics",
+     "alter_ego": "Norrin Radd",
+     "first_appearance": "The Fantastic Four #48",
+     "weight": "unknown"
+   }
   ]
 
 //1
@@ -167,3 +167,13 @@ console.log(weightMarvelComics)
 console.log(weightMarvelComics.reduce(reducer));
 
 
+const heaviestHero = superheroes.reduce((currentHeaviestHero, currentHero) => {
+  if(currentHeaviestHero.weight > currentHero) {
+    return currentHeaviestHero
+  } else{
+    return currentHero
+  }
+  return
+}, superheroes[0])
+
+console.log(heaviestHero)
