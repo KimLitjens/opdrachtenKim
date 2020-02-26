@@ -1,0 +1,39 @@
+ul {
+  background-color: darkblue;
+}
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.currentPage {
+  background-color: grey;
+}
+
+li a:hover {
+  background: lightblue;
+}
+
+input:focus {
+  border-color: aqua;
+  font-size: 20px;
+}
+/* .currentPage:hover {
+  color: lightblue;
+  font-style: bold;
+}
+
+.second:active {
+  color: red;
+  font-style: italic;
+}
+
+.third:visited {
+  color: yellow;
+   text-decoration: line-through; Isn't allowed anymore 
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+} */

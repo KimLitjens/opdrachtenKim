@@ -8,7 +8,8 @@ getMovieGenres().then(henk => {
 
 const setMovieGenres = function(movieData) {
   const moviesGenres = movieData.genres;
-  //console.log(moviesGenres);
+  console.log(moviesGenres);
+  console.log(typeof moviesGenres);
   moviesGenres.forEach(movieGenre => {
     const listItem = document.createElement("li");
     const listItemContent = `genre naam: ${movieGenre.name}, id: ${movieGenre.id}`;
